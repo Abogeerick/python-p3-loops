@@ -2,15 +2,17 @@
 
 def happy_new_year():
     # code goes here!
-    for i in range(11):
-        print(i)
-        print("Happy New Year!")
+    i = 10
+    while i > 0:
+        print (i)
+        i -= 1
+    print("Happy New Year!")
 
 def square_integers(int_list):
     # code goes here!
     squared_list = []
     for int in int_list:
-        squared_list.append(int * int)
+        squared_list.append(int **2)
     return squared_list
 
 
